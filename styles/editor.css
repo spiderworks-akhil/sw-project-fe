@@ -1,0 +1,373 @@
+/* sidebar sections */
+
+.side-bar-conatiner {
+    width: 269px;
+    height: 100vh;
+    padding: 10px 10px;
+    background: #ffff;
+}
+
+.side-bar-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+}
+
+.side-bar-work-label {
+    color: #000;
+    /* font-family: Inter; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 30px;
+}
+
+.side-bar-image {
+    width: 97px;
+    height: 97px;
+    flex-shrink: 0;
+}
+
+
+/* Login sections */
+
+.login-page-sec {
+    padding: 25px;
+    max-width: 1440px;
+    /* height: 100vh; */
+    margin: 0 auto;
+}
+
+.log-left {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    min-width: 580px;
+    padding: 0 25px;
+}
+
+.log-left img {
+    width: 582px;
+    height: calc(100vh - 50px);
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.log-left-cap {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 70px 50px;
+}
+
+.log-left-cap h3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    max-width: 240px;
+    margin-top: 65px;
+}
+
+.log-right {
+    /* padding: 0 25px; */
+    min-width: 552px;
+    width: 60%;
+}
+
+.log-rht-cntr {
+    max-width: 552px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.log-rht-cntr input {
+    padding-left: 50px !important;
+}
+
+.log-rht-cntr h4 {
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.12px;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    position: relative;
+    padding-left: 105px;
+}
+
+.log-rht-cntr h4::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 98px;
+    height: 1px;
+    background-color: #000;
+}
+
+.log-rht-cntr h1 {
+    color: #0D1422;
+    text-align: left;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+    /* 100% */
+    letter-spacing: -3.36px;
+    margin-bottom: 16px;
+
+}
+
+.log-rht-cntr p {
+    color: #6B6B6D;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 55px;
+}
+
+.log-rht-cntr h5 {
+    color: #0D1422;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.15px;
+    margin-top: 150px;
+}
+
+.log-rht-cntr h5 svg {
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.log-rht-cntr button {
+    border-radius: 4px;
+    background: #0047CD;
+    text-align: left;
+    color: var(--icon-color, #FFF);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 10px;
+    height: 70px;
+    padding-left: 28px;
+    position: relative;
+}
+
+.log-rht-cntr button svg {
+    position: absolute;
+    right: 18px;
+    top: 13px;
+}
+
+.log-rht-cntr .input-group svg.lg-ic1 {
+    position: absolute;
+    left: 12px;
+    top: 0;
+    width: 20px;
+    height: 100%;
+}
+
+.log-rht-cntr .input-group svg.lg-ic2 {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    padding-left: 50px;
+    width: 100%;
+    /* Set input width to 100% */
+    padding: 15px 10px;
+    border-radius: 3px;
+    border: 1px solid #edd3d3;
+    background-color: #fff !important;
+}
+
+.rs-input-group.rs-input-group-inside {
+    background-color: transparent !important;
+    border: 0px !important;
+}
+
+.no-clear .rs-input-group-addon {
+    display: none;
+}
+
+.custom-input-group {
+    position: relative;
+    width: 100%;
+}
+
+.custom-password-input {
+    width: 100%;
+    padding-right: 2.5rem;
+    /* Make space for the icon */
+    padding-left: 0.5rem;
+    /* Optional: add some padding to the left for better look */
+    box-sizing: border-box;
+    /* Ensure padding is included in width */
+}
+
+.custom-icon-container {
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-icon {
+    color: #CDCDCD;
+    /* Optional: customize icon color */
+}
+
+.log-rht-cntr .input-group {
+    position: relative;
+    margin-bottom: 37px;
+}
+
+.log-rht-cntr .input-group svg.lg-ic1 {
+    position: absolute;
+    left: 12px;
+    top: 0;
+    width: 20px;
+    height: 100%;
+}
+
+.log-rht-cntr .input-group svg.lg-ic2 {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+}
+
+.no-clear .rs-input-group-addon {
+    display: none;
+
+}
+
+.spinner {
+    border: 4px solid rgba(253, 248, 248, 0.1);
+    border-left-color: #daddeb;
+    /* Change color as needed */
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* footer section */
+
+.footer-container {
+    display: flex;
+    width: 249px;
+    max-width: 500px;
+    height: 55px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 7px;
+    border: 1px solid #e4dfdf;
+}
+
+.footer-inner-div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-logout-icon:hover {
+    cursor: pointer;
+}
+
+
+/* Header section */
+
+.header-container {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    color: #000;
+    /* font-family: "Plus Jakarta Sans"; */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header-logged-time-div {
+    width: 199px;
+    height: 59.117px;
+    flex-shrink: 0;
+    border-radius: 8.326px;
+    background: #FFF;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 0px 10px 0px;
+}
+
+.header-logged-text {
+    color: #2D2C2C;
+    /* font-family: "Plus Jakarta Sans"; */
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.header-loggged-time {
+    color: #2D2C2C;
+    /* font-family: "Plus Jakarta Sans"; */
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
