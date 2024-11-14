@@ -50,8 +50,8 @@ function SideBar() {
 
                                         {
                                             menu?.subMenu?.map((child, childIndex) => (
-                                                <Link href={menu?.url + child?.url}>
-                                                    <li key={childIndex} className='border-b'><a className='text-[#5B5B5B] text-[14px] font-[500] py-[8px] w-full block'>{child?.title}</a></li>
+                                                <Link key={childIndex} href={menu?.url + child?.url}>
+                                                    <li className='border-b'><a className='text-[#5B5B5B] text-[14px] font-[500] py-[8px] w-full block'>{child?.title}</a></li>
                                                 </Link>
                                             ))
                                         }
