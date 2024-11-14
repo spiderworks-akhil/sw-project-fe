@@ -5,8 +5,9 @@ import Header from './header'
 
 function Layout({ children, title }) {
     return (
+        
         <div className='flex'>
-            <div>
+            <div className=''>
                 <SideBar />
             </div>
             <div className='w-full'>
@@ -15,6 +16,8 @@ function Layout({ children, title }) {
                 <Footer />
             </div>
         </div>
+        
+      
     )
 }
 export default Layout

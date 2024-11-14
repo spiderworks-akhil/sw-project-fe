@@ -17,3 +17,8 @@ body {
   background: var(--background);
   font-family: PlusJakartaSans;
 }
+
+.container {
+  max-width: 1450px;
+  margin: 0px auto;
+}
